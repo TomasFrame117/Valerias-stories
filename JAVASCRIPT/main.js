@@ -58,16 +58,15 @@ const setninger = [
     },
     {
         id: 2,
-        text: 'you look in the direction of the voice',
+        text: 'Taken by the spectacles you continue inwards the vivid room. “Hello, Hello there,” came across the room. The voice is warm, but profound and youthful.',
         options: [
             {
-            text: 'look in the voice direction.',
+            text: 'look for the voice',
             setState: {voice: true},
             nextText: 3,
             },
             {
-                text: '',
-                setState: {voice: true},
+                text: 'Do nothing',
                 nextText: 2,
             },
 
@@ -75,16 +74,97 @@ const setninger = [
     },
     {
         id: 3,
-        text: 'you enter a room. its huge with gold in a hermonic blend to the royal red collord walls, and carpets on the floor. "Hello, helloo there, who are you?" siad a voice calm but stil warm across the room. what do you do?',
+        text: 'You look around trying spot the source of the voice. At your left a silhouette appears in the shape of feminine nature. Tall and skinny with sharp edges. A glowing dark-red, beam out from her curly hair. Two glooming eyes of wonder approaching you in calm clank for her heals meeting the ground.',
         options: [
             {
-             text: 'look in the voice direction.',
-             setState: {voice: true},
-             nextText: 2,
+             text: 'Hello?',
+             nextText: 5,
             },
             {
-             text: 'look in the voice direction.',
-             setState: {voice: true},
+                text: 'Who are you?',
+                nextText: 4,
+               },
+            {
+             text: 'Do nothing',
+             nextText: 100,
+             },
+
+        ]
+    },
+    {
+        id: 4,
+        text: '“Ow straight to the point are we, hum. Its Valeria.”',
+        options: [
+            {
+             text: 'Nice to meet you ',
+             nextText: 7,
+            },
+            {
+             text: 'Do nothing',
+             nextText: 6,
+             },
+             {
+                text: 'Echante',
+                nextText: 2,
+            },
+
+        ]
+    },
+    {
+        id: 5,
+        text: '"Hello indeed. How do you feel?"',
+        options: [
+            {
+             text: 'Hello?',
+             nextText: 7,
+            },
+            {
+             text: 'Do nothing',
+             nextText: 2,
+             },
+
+        ]
+    },
+    {
+        id: 6,
+        text: '"Not a talker arnt we."',
+        options: [
+            {
+             text: 'No?',
+             nextText: 7,
+            },
+            {
+             text: 'Do nothing',
+             nextText: 2,
+             },
+
+        ]
+    },
+    {
+        id: 7,
+        text: '"Hello indeed. How do you feel?"',
+        options: [
+            {
+             text: 'Hello?',
+             nextText: 7,
+            },
+            {
+             text: 'Do nothing',
+             nextText: 2,
+             },
+
+        ]
+    },
+    {
+        id: 8,
+        text: '"Hello indeed. How do you feel?"',
+        options: [
+            {
+             text: 'Hello?',
+             nextText: 7,
+            },
+            {
+             text: 'Do nothing',
              nextText: 2,
              },
 
